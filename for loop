@@ -1,0 +1,7 @@
+<html>
+    <head><title>for loop</title></head>
+    <body>
+        <p id="car"><h4>creta</h4></p>
+    </body>
+    <script src="./forloop.js"></script>
+</html>

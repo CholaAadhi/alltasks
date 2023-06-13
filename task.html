@@ -1,0 +1,81 @@
+<html>
+    <head><title>task</title></head>
+    <body>
+        <h3>find the highest number</h3>
+        <p id="task1"></p>
+        <h3>print the sum of the numbers</h3>
+        <p id="task2"></p>
+        <h3>find the length of an array</h3>
+        <p id="task3"></p>
+        <h3>add an element to the end of the array</h3>
+        <p id="task4"></p>
+        <h3>add an element to the beginning of an array</h3>
+        <p id="task5"></p>
+        <h3>add an remove the last element from an array</h3>
+        <p id="task6"></p>
+        <h3>remove the first element from an array</h3>
+        <p id="task7"></p>
+        <h3>find the index of an array element</h3>
+        <p id="task8"></p>
+        <h3>find the remove an element from an array by its index</h3>
+        <p id="task9"></p>
+        <h3>create join all elements of an array into string</h3>
+        <p id="task10"></p>
+        <h3>display the name,age,city,date of birth</h3>
+        <p id="task11"></p>
+        <script>
+            var a=[1,2,3,4,5,6,7,8,9,10];
+            document.getElementById("task1").innerHTML=Math.max(1,2,3,4,5,6,7,8,9,10);
+        </script>
+        <script>
+            let add=0;
+            const b=[100,200,300,400];
+            b.forEach(myfunction);
+            document.getElementById("task2").innerHTML=add;
+            function myfunction(item){add+=item;}
+        </script>
+        <script>
+            let friuts=["apple,orange"];
+            document.getElementById("task3").innerHTML=friuts.length;
+        </script>
+        <script>
+            let car=["tata,mahindra"];
+            car.push("bolero");
+            document.getElementById("task4").innerHTML=car;
+        </script>
+        <script>
+            let bike=["starcity","pulsar","bajaj"];
+            bike.pop();
+            document.getElementById("task5").innerHTML=bike;
+        </script>
+        <script>
+            let company=["tcs","tata","honda"];
+            company.unshift();
+            document.getElementById("task6").innerHTML=company;
+        </script>
+        <script>
+            const cars=["creta","bolero","maxtruck"];
+            const car1=cars.shift();
+            document.getElementById("task7").innerHTML=car1;
+        </script>
+        <script>
+            const bikes=["activa","apache","pulasr"];
+            const bike1=bikes.indexOf();
+            document.getElementById("task8").innerHTML=bike1;
+        </script>
+        <script>
+            const truck=["truck","tempo","lorry"];
+            const truck1=truck.splice(0,2,"truck","tempo");
+            document.getElementById("task9").innerHTML=truck1;
+        </script>
+        <script>
+            const join=["aadhi","vikash","rohith","naveensanthosh"];
+            const join1=join.join("*");
+            document.getElementById("task10").innerHTML=join1;
+        </script>
+        <script>
+            const biodata={firstname:"aadhithiya",dept:"cse",college:"gpt"};
+            document.getElementById("task11").innerHTML="Myname:" +biodata.firstname + ",dept:" + biodata.dept + ",college:" + biodata.college ;
+        </script>
+    </body>
+</html>

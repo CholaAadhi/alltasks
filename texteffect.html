@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>text effect</title>
+</head>
+<style>
+    .test1 {
+        white-space: nowrap;
+        width: 100px;
+        border: 1px solid;
+        overflow: hidden;
+        text-overflow: clip;
+    }
+    .test1:hover{overflow: visible;}
+
+    .test2 {
+        white-space: nowrap;
+        width: 200px;
+        border: 1px solid;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+<body>
+    <h1>
+        Clip
+    </h1>
+    <div class="test1">this is some long text that will not fit in the box</div>
+    <h1>
+        Ellipsis
+    </h1>
+    <div class="test2">this is some long text that will not fit in the box</div>
+</body>
+
+</html>

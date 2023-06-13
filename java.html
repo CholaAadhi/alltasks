@@ -1,0 +1,28 @@
+<html>
+    <head><title>string methods</title></head>
+    <body>
+        <h1>string methods</h1>
+        <p><b>length methods</b></p>
+        <p id="demo"></p>
+        <p><b>lowercase to uppercase</b></p>
+        <p id="demo1"></p>
+        <p><b>uppercase to lowercase</b></p>
+        <p id="demo2"></p>
+        <p><b>replace</b></p>
+        <p id="demo3">my bootstrap</p>
+        <p><b>slice methods</b></p>
+        <p id="demo4"></p>
+    <script>
+     let friuts="apple,mango,orange";
+     document.getElementById("demo").innerHTML=friuts.length;
+     let car="creta,bolero";
+     document.getElementById("demo1").innerHTML=car.toUpperCase();
+     let bike="apache,starcity";
+     document.getElementById("demo2").innerHTML=bike.toLowerCase();
+     let replace=document.getElementById("demo3").innerHTML;
+     document.getElementById("demo3").innerHTML=replace.replace("my bootstrap","applet");
+     let fruit=("apple,orange,bananna");
+     document.getElementById("demo4").innerHTML=fruit.slice();
+     </script>    
+    </body>
+</html>
